@@ -10,7 +10,7 @@ public class ReadAFile {
 
 	public static void main(String[]args) throws IOException {
 
-        String fileName = new File("src/question1/test.txt").getAbsolutePath();
+        String fileName = new File("src/question1PrintAFile/test.txt").getAbsolutePath();
         boolean isfileexists =  isfileExist(fileName);
         String line = null;
         if (isfileexists){
